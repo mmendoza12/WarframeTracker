@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Warframe Tracker</string>
+
+    <string name="tracker">Tracker</string>
+    <string name="market">Market</string>
+
+    <string name="alerts">Alerts</string>
+    <string name="Invasions">Invasions</string>
+    <string name="News">News</string>
+
+    <string name="full_item_price">Full Item Price</string>
+    <string name="blueprint">Blueprint</string>
+    <string name="neuroptics">Neuroptics</string>
+    <string name="chassis">Chassis</string>
+    <string name="systems">Systems</string>
+
+</resources>
