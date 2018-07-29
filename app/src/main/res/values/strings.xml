@@ -5,8 +5,13 @@
     <string name="market">Market</string>
 
     <string name="alerts">Alerts</string>
-    <string name="Invasions">Invasions</string>
-    <string name="News">News</string>
+    <string name="invasions">Invasions</string>
+    <string name="darvo_daily_deals">Darvo Daily Deals</string>
+    <string name="void_traders">Void Traders</string>
+    <string name="sorties">Sorties</string>
+    <string name="void_fissures">Void Fissures</string>
+    <string name="cetus_day_night_cycle">Cetus Day/Night Cycle</string>
+    <string name="earth_day_night_cycle">Earth Day/Night Cycle</string>
 
     <string name="full_item_price">Full Item Price</string>
     <string name="blueprint">Blueprint</string>

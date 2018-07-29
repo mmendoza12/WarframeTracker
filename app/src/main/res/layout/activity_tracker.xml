@@ -9,64 +9,112 @@
     android:background="@color/black"
     tools:context=".TrackerActivity">
 
-    <android.support.design.widget.TabLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/black"
-        app:tabIndicatorColor="@color/gold"
-        app:tabMode="scrollable"
-        app:tabSelectedTextColor="@color/gold"
-        app:tabTextColor="@color/white">
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
 
-        <android.support.design.widget.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Left"/>
+        <TextView
+            android:id="@+id/alertsTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/square_outline"
+            android:text="@string/alerts"
+            android:onClick="launchAlerts"/>
 
-        <android.support.design.widget.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Center"/>
+        <TextView
+            android:id="@+id/invasionsTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/square_outline"
+            android:text="@string/invasions"/>
+    </LinearLayout>
 
-        <android.support.design.widget.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Right"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
 
-        <android.support.design.widget.TabItem
-            android:id="@+id/tabItem"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tab5"/>
+        <TextView
+            android:id="@+id/darvoDailyDealsTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/square_outline"
+            android:text="@string/darvo_daily_deals"/>
 
-        <android.support.design.widget.TabItem
-            android:id="@+id/tabItem2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tab6"/>
+        <TextView
+            android:id="@+id/voidTraderTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/square_outline"
+            android:text="@string/void_traders"/>
+    </LinearLayout>
 
-        <android.support.design.widget.TabItem
-            android:id="@+id/tabItem3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tab7"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
 
-        <android.support.design.widget.TabItem
-            android:id="@+id/tabItem4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tab8"/>
+        <TextView
+            android:id="@+id/sortiesTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/square_outline"
+            android:text="@string/sorties"/>
 
-        <android.support.design.widget.TabItem
-            android:id="@+id/tabItem5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tab9"/>
+        <TextView
+            android:id="@+id/voidFissuresTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/square_outline"
+            android:text="@string/void_fissures"/>
+    </LinearLayout>
 
-        <android.support.design.widget.TabItem
-            android:id="@+id/tabItem6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tab10"/>
-    </android.support.design.widget.TabLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cetusTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/square_outline"
+            android:text="@string/cetus_day_night_cycle"/>
+
+        <TextView
+            android:id="@+id/earthTextView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/square_outline"
+            android:text="@string/earth_day_night_cycle"/>
+    </LinearLayout>
 </LinearLayout>

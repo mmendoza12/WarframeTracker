@@ -42,7 +42,11 @@ public class MainActivity extends AppCompatActivity {
         marketTextView = findViewById(R.id.marketTextView);
     }
 
-    // Used when the user clicks on the tracker image
+    /**
+     * Used when the user clicks on the tracker image
+     *
+     * @param v View
+     */
     public void launchTracker(View v)
     {
         if (tracker)
@@ -66,7 +70,11 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    // Used when the user clicks on the market image
+    /**
+     * Used when the user clicks on the market image
+     *
+     * @param v View
+     */
     public void launchMarket(View v)
     {
         if (market)
