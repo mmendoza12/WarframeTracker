@@ -26,6 +26,8 @@
         </activity>
         <activity android:name=".InvasionsActivity">
         </activity>
+        <activity android:name=".SortiesActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -79,7 +79,8 @@
             android:gravity="center"
             android:textColor="@color/white"
             android:background="@drawable/square_outline"
-            android:text="@string/sorties"/>
+            android:text="@string/sorties"
+            android:onClick="launchSorties"/>
 
         <TextView
             android:id="@+id/voidFissuresTextView"
