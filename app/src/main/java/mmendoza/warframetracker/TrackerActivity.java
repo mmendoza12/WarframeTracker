@@ -44,13 +44,24 @@ public class TrackerActivity extends AppCompatActivity {
     }
 
     /**
-     * Used when the user clicks on the alerts option
+     * Used when the user clicks on the alerts option.
      *
-     * @param v
+     * @param v View
      */
     public void launchAlerts(View v)
     {
         Intent alertsIntent = new Intent(this, AlertsActivity.class);
         startActivity(alertsIntent);
+    }
+
+    /**
+     * Used when the user clicks on the invasions option.
+     *
+     * @param v View
+     */
+    public void launchInvasions(View v)
+    {
+        Intent invasionsIntent = new Intent(this, InvasionsActivity.class);
+        startActivity(invasionsIntent);
     }
 }

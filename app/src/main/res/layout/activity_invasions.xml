@@ -7,8 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/black"
-    android:id="@+id/linearLayout"
-    tools:context=".AlertsActivity">
+    tools:context=".InvasionsActivity">
 
     <TextView
         android:id="@+id/textView"
